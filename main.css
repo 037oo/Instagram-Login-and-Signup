@@ -1,0 +1,383 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  overflow: none;
+  background-color: rgb(255, 255, 255);
+}
+
+a {
+  text-decoration: none;
+  font-size: 14px;
+}
+
+p {
+  font-size: 15px;
+  margin-top: 25px;
+  margin-bottom: 18px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+img {
+  object-fit: cover;
+}
+
+.dropup .dropdown-toggle::after {
+  display: none;
+}
+.container{
+  display:flex ;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  flex-direction: column;
+  margin-top: 5%;
+}
+
+
+
+
+button.log_btn {
+  background-color: rgb(0, 149, 246);
+  border: none;
+  color: white;
+  width: 100%;
+  padding: 7px 16px;
+  border-radius: 10px;
+  opacity: 0.7;
+  margin-top: 15px;
+}
+button.log_btn:hover {
+  opacity: 1;
+}
+
+.border_insc {
+  border: 2px solid rgb(219, 219, 219);
+  padding: 36px 40px;
+}
+
+
+
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+.login .images {
+  position: relative;
+}
+.login .images .sliders {
+  position: absolute;
+  top: 25px;
+  left: 155px;
+}
+.login .content {
+  max-width: 350px;
+}
+.login .content .log-on .logo {
+  text-align: center;
+  margin-bottom: 25px;
+}
+.login .content .log-on .logo img {
+  width: 180px;
+}
+.login .content .log-on form div {
+  margin-bottom: 10px;
+}
+.login .content .log-on form div input {
+  font-size: 12px;
+  font-weight: 300;
+  width: 100%;
+  padding: 9px 0px 7px 8px;
+  border-radius: 5px;
+  border: 1px solid rgb(219, 219, 219);
+  background-color: rgb(250, 250, 250);
+}
+.login .content .log-on .other-ways .seperator {
+  margin: 15px 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  text-align: center;
+}
+.login .content .log-on .other-ways .seperator span.ou {
+  text-align: center;
+  color: rgb(142, 142, 142);
+  font-weight: 600;
+}
+.login .content .log-on .other-ways .seperator span.ligne {
+  display: inline-block;
+  width: 100px;
+  height: 1px;
+  background-color: rgb(142, 142, 142);
+}
+.login .content .log-on .other-ways .facebook-connection {
+  margin: 15px 0px 20px 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.login .content .log-on .other-ways .facebook-connection a {
+  font-size: 14px;
+  color: rgb(56, 81, 133);
+  font-weight: 600;
+}
+.login .content .log-on .other-ways .facebook-connection img {
+  width: 20px;
+  margin-right: 5px;
+}
+.login .content .log-on .other-ways .forget-password {
+  text-align: center;
+}
+.login .content .log-on .other-ways .forget-password a {
+  font-size: 13px;
+  color: rgb(56, 81, 133);
+  opacity: 0.9;
+  text-align: center;
+}
+.login .content .sing-up {
+  text-align: center;
+  padding: 10px 0px;
+  margin-top: 10px;
+}
+.login .content .sing-up p {
+  font-weight: 300;
+  margin: 0;
+  color: rgb(38, 38, 38);
+  font-size: 14px;
+}
+.login .content .sing-up p a {
+  font-size: 14px;
+  color: rgb(0, 149, 246);
+  font-weight: 600;
+}
+.login .content .download {
+  text-align: center;
+}
+.login .content .download div img {
+  height: 40px;
+}
+
+
+.sign_up .content {
+  max-width: 400px;
+  margin: 10px auto;
+}
+.sign_up .content .log-on .logo {
+  text-align: center;
+  margin-bottom: 25px;
+}
+.sign_up .content .log-on .logo img {
+  width: 180px;
+}
+.sign_up .content .log-on .logo p {
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+}
+.sign_up .content .log-on .logo .log_fac {
+  margin: 15px auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(0, 149, 246);
+}
+.sign_up .content .log-on .logo .log_fac a {
+  font-size: 14px;
+  color: white;
+  font-weight: 600;
+}
+.sign_up .content .log-on .logo .log_fac img {
+  width: 20px;
+  margin-right: 5px;
+}
+.sign_up .content .log-on .logo .seperator {
+  margin: 15px 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  text-align: center;
+}
+.sign_up .content .log-on .logo .seperator span.ou {
+  text-align: center;
+  color: rgb(142, 142, 142);
+  font-weight: 600;
+}
+.sign_up .content .log-on .logo .seperator span.ligne {
+  display: inline-block;
+  width: 100px;
+  height: 1px;
+  background-color: rgb(142, 142, 142);
+}
+.sign_up .content .log-on form div {
+  margin-bottom: 5px;
+}
+.sign_up .content .log-on form div input {
+  font-size: 12px;
+  font-weight: 300;
+  width: 100%;
+  padding: 9px 0px 7px 8px;
+  border-radius: 5px;
+  border: 1px solid rgb(219, 219, 219);
+  background-color: rgb(250, 250, 250);
+}
+.sign_up .content .info {
+  margin-top: 20px;
+}
+.sign_up .content .info p {
+  text-align: center;
+  font-size: 12px;
+  color: rgb(142, 142, 142);
+  margin: 7px 0;
+}
+.sign_up .content .info p a {
+  font-size: 12px;
+}
+.sign_up .content .sing-in {
+  text-align: center;
+  padding: 10px 0px;
+  margin-top: 10px;
+}
+.sign_up .content .sing-in p {
+  font-weight: 300;
+  margin: 0;
+  color: rgb(38, 38, 38);
+  font-size: 14px;
+}
+.sign_up .content .sing-in p a {
+  font-size: 14px;
+  color: rgb(0, 149, 246);
+  font-weight: 600;
+}
+.sign_up .content .download {
+  text-align: center;
+}
+.sign_up .content .download div img {
+  height: 40px;
+}
+
+
+.footer {
+  font-size: 12px;
+  color: #8e8e8e; 
+  text-align: center;
+  padding: 20px;
+  background-color: #ffffff; 
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  color: #8e8e8e;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer-bottom span {
+  color: #8e8e8e; 
+}
+
+.footer .language-selector select {
+  background-color: transparent;
+  border: none;
+  color: #999;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+  appearance: none;
+  vertical-align: middle; 
+  margin-top: -5%; 
+}
+
+
+.language-selector {
+  font-size: 12px;
+  color: #8e8e8e;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  
+}
+
+.language-selector select {
+  padding: 5px;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  background-color: #ffffff;
+  appearance: none; 
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-repeat: no-repeat;
+  background-size: 12px;
+  text-align: right;
+}
+
+.language-selector select:focus {
+  outline: none;
+  border-color: #a0a0a0;
+}
+
+
+.invalid-input {
+  border: 1px solid red !important;
+}
+
+
+.focus-input {
+  border: 1px solid rgb(0, 149, 246) !important;
+}
+
+
+input[type="password"] {
+  border: 1px solid #ccc; 
+}
+
+
+.custom-swal-button {
+  background-color: rgb(0, 149, 246) !important;
+  color: white !important;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.custom-swal-button:hover {
+  background-color: rgb(0, 123, 204) !important;
+}
+
+
+

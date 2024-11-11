@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title> 
+    <link rel="stylesheet" href="main.css">
+    <script src="sweet.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+</head>
+<body>
+    <div class="container2">
+        <div class="sign_up">
+            <div class="content">
+                <div class="log-on border_insc">
+                    <div class="logo">
+                        <img src="./images/logo.png" alt="Instagram logo">
+                        <p>Sign up to see photos and videos from your friends.</p>
+                        <div>
+
+                        </div>
+
+                    </div>
+                    <form action="" method="post">
+                        <div>
+                            <input type="email" name="email" id="emai" placeholder="Mobile Number or Email">
+                        </div>
+                        <div>
+                            <input type="password" name="password" id="password" placeholder="password">
+                        </div>
+                        <div>
+                            <input type="text" name="name" id="name" placeholder="Full Name">
+                        </div>
+                        <div>
+                            <input type="text" name="username" id="username" placeholder="Username">
+                        </div>
+                        
+                        <div class="info">
+                            <p>
+                                People who use our service may have uploaded your contact information to Instagram. 
+                                <a href="https://www.facebook.com/help/instagram/261704639352628" target="_blank">Learn more</a>
+                            </p>
+                            <p>
+                                By signing up, you agree to our 
+                                <a href="https://help.instagram.com/581066165581870/?locale=en_US" target="_blank">Terms.</a> 
+                                Learn how we collect, use and share your data in our 
+                                <a href="https://www.facebook.com/privacy/policy" target="_blank">Privacy Policy</a>
+                                and how we use cookies and similar technology in our
+                                <a href="https://www.instagram.com/legal/cookies/" target="_blank"> Cookies Policy</a>
+                            </p>
+                        </div>
+                        
+                    </form>
+                    <a href="#">
+                        <button class="log_btn" onclick="sigmaAlert()" id="loginButton">
+                                Next
+                        </button>
+                    </a>
+                    <div class="info">
+                        <p>
+                            You can also 
+                            <a href="#">report content you believe is unlawful</a>
+                             in your country without logging in.
+                        </p>
+
+                    </div>
+                </div>
+                <div class="sing-in border_insc">
+                    <p>
+                        Have an account? 
+                        <a href="./login.html">Log in</a>
+                    </p>
+                </div>
+                <div class="download">
+                    <p>Get the app.</p>
+                    <div>
+                        <a href="https://play.google.com/store/apps/details?id=com.instagram.android&referrer=ig_mid%3D177FDFF1-4B70-4B55-B461-26827A3A784B%26utm_campaign%3DunifiedHome%26utm_content%3Dlo%26utm_source%3Dinstagramweb%26utm_medium%3Dbadge" target="_blank">
+                            <img src="./images/google_play_icon1.png" alt="download app from google play">
+                        </a>
+
+                        <a href="ms-windows-store://pdp/?productid=9nblggh5l9xt&referrer=appbadge&source=www.instagram.com&mode=mini&pos=-8%2C-8%2C1936%2C1056">
+                            <img src="./images/microsoft-icon1.png" alt="download app from microsoft">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-links">
+            <a href="https://about.meta.com/" target="_blank">Meta</a>
+            <a href="https://about.instagram.com/" target="_blank">About</a>
+            <a href="https://about.instagram.com/blog/" target="_blank">Blog</a>
+            <a href="https://about.instagram.com/about-us/careers" target="_blank">Jobs</a>
+            <a href="https://help.instagram.com/" target="_blank">Help</a>
+            <a href="https://developers.facebook.com/docs/instagram" target="_blank">API</a>
+            <a href="https://www.instagram.com/legal/privacy/" target="_blank">Privacy</a>
+            <a href="https://www.instagram.com/privacy/cookie_settings/" target="_blank">Cookie Settings</a>
+            <a href="https://www.instagram.com/legal/terms/" target="_blank">Terms</a>
+            <a href="https://www.instagram.com/explore/locations/" target="_blank">Locations</a>
+            <a href="https://www.instagram.com/web/lite/" target="_blank">Instagram Lite</a>
+            <a href="https://www.threads.net/" target="_blank">Threads</a>
+            <a href="https://www.facebook.com/help/instagram/261704639352628" target="_blank">Contact Uploading & Non-Users</a>
+            <a href="https://www.instagram.com/accounts/meta_verified/?entrypoint=web_footer" target="_blank">Meta Verified</a>
+        </div>
+        <div class="footer-bottom">
+            <div class="language-selector">
+                <label for="language"> </label>
+                <select id="language" name="language">
+                    <option value="en">English</option>
+                    <option value="af">Afrikaans</option>
+                    <option value="ar">العربية</option>
+                    <option value="cs">Čeština</option>
+                    <option value="da">Dansk</option>
+                    <option value="de">Deutsch</option>
+                    <option value="el">Ελληνικά</option>
+                    <option value="en-gb">English (UK)</option>
+                    <option value="es">Español (España)</option>
+                    <option value="es-la">Español</option>
+                    <option value="fa">فارسی</option>
+                    <option value="fi">Suomi</option>
+                    <option value="fr">Français</option>
+                    <option value="he">עברית</option>
+                    <option value="id">Bahasa Indonesia</option>
+                    <option value="it">Italiano</option>
+                    <option value="ja">日本語</option>
+                    <option value="ko">한국어</option>
+                    <option value="ms">Bahasa Melayu</option>
+                    <option value="nb">Norsk</option>
+                    <option value="nl">Nederlands</option>
+                    <option value="pl">Polski</option>
+                    <option value="pt-br">Português (Brasil)</option>
+                    <option value="pt">Português (Portugal)</option>
+                    <option value="ru">Русский</option>
+                    <option value="sv">Svenska</option>
+                    <option value="th">ภาษาไทย</option>
+                    <option value="tl">Filipino</option>
+                    <option value="tr">Türkçe</option>
+                    <option value="zh-cn">中文(简体)</option>
+                    <option value="zh-tw">中文(台灣)</option>
+                    <option value="bn">বাংলা</option>
+                    <option value="gu">ગુજરાતી</option>
+                    <option value="hi">हिन्दी</option>
+                    <option value="hr">Hrvatski</option>
+                    <option value="hu">Magyar</option>
+                    <option value="kn">ಕನ್ನಡ</option>
+                    <option value="ml">മലയാളം</option>
+                    <option value="mr">मराठी</option>
+                    <option value="ne">नेपाली</option>
+                    <option value="pa">ਪੰਜਾਬੀ</option>
+                    <option value="si">සිංහල</option>
+                    <option value="sk">Slovenčina</option>
+                    <option value="ta">தமிழ்</option>
+                    <option value="te">తెలుగు</option>
+                    <option value="ur">اردو</option>
+                    <option value="vi">Tiếng Việt</option>
+                    <option value="zh-hk">中文(香港)</option>
+                    <option value="bg">Български</option>
+                    <option value="fr-ca">Français (Canada)</option>
+                    <option value="ro">Română</option>
+                    <option value="uk">Українська</option>
+                    <option value="sr">Српски</option>
+                </select>
+            </div>
+            
+            <span>© 2024 Instagram from Meta</span>
+        </div>
+    </footer>
+
+</body>
+
+</html>
