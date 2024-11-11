@@ -102,10 +102,10 @@ function sigmaAlert() {
 
 let currentImageIndex = 0;
 const images = [
-    "./images/screenshot1.png",
-    "./images/screenshot2.png",
-    "./images/screenshot3.png",
-    "./images/screenshot4.png"
+    "images/screenshot1.png",
+    "images/screenshot2.png",
+    "images/screenshot3.png",
+    "images/screenshot4.png"
 ];
 const fadeDuration = 800; 
 const displayDuration = 4000; 
